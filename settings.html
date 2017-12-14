@@ -1,0 +1,49 @@
+<!doctype html>
+
+  <!--
+      - JavaScript and HTML must be in separate files: see our Content Security
+      - Policy documentation[1] for details and explanation.
+      -
+      - [1]: https://developer.chrome.com/extensions/contentSecurityPolicy
+    -->
+<html>
+
+<head>
+  <title>Getting Started Extension's Popup</title>
+  <style type="text/css">
+    body {
+      margin: 10px;
+      white-space: nowrap;
+    }
+
+    h1 {
+      font-size: 15px;
+    }
+
+    .container {
+      align-items: center;
+      display: flex;
+      justify-content: space-between;
+    }
+  </style>
+  </head>
+
+<body>
+  <h1>Settings</h1>
+  <div id="container">
+    <div class="input-field">
+      API Key:
+      <input type="text" id="apiKey-input" placeholder="ake2ka-91knsk-s92ns9">
+      <button id="apiKey-save-btn">save</button>
+    </div>
+    <br>
+    <div class="input-field">
+      Team ID:
+      <input type="text" id="teamId-input" placeholder="32168132">
+      <button id="teamId-save-btn">save</button>
+    </div>
+  </div>
+</body>
+<script src="/helpers.js"></script>
+
+</html>
